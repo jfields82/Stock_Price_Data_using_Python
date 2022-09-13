@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "def is_leap(year):\n    leap = False\n    leap_divided_four = year / 4\n    not_leap = year / 100\n    it_a_leap = year % 400\n    # Write your logic here\n    if leap_divided_four == 0 or it_a_leap == 0:\n        return True\n    else:\n        return False\n    \n    \n    return leap\n\nyear = int(input())",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
